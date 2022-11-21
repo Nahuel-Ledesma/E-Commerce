@@ -1,0 +1,42 @@
+/* ------------------------------- Variables -------------------------------*/
+:root{
+    --bg-color: #EBEBEB;
+    --input-placeholder: #A2A2A2;
+    --input-bg: #EFEFEF;
+    --texto-destaque: #FFF;
+    --azul-destaque: #2A7AE4;
+    --bg-contacto: #EAF2FD;
+}
+
+/* ------------------------------- Normalize -------------------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--bg-color);
+}
+
+/* ------------------------------- Patrón del proyecto -------------------------------*/
+textarea:focus, input:focus{
+    box-shadow: 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+input::placeholder, textarea::placeholder{
+    color: var(--input-placeholder);
+    padding: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--azul-destaque);
+    font-weight: 800;
+}
+
+button{
+    cursor: pointer;
+}
+
+

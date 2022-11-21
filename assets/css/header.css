@@ -1,0 +1,73 @@
+/* ------------------------------- Header general ------------------------------- */
+header, footer{
+    background-color: var(--texto-destaque);
+    padding: 32.5px 155px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------------------- Divs del header ------------------------------- */
+.logo__busqueda{
+    margin-left: 175px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center; 
+}
+
+.logo img{
+    height: 30px;
+    width: 40px;
+}
+
+.logo p{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo .logo__azul{
+    margin-left: 10px;
+    color: var(--azul-destaque);
+}
+
+.logo__busqueda input{
+    margin-left: 10%;
+    width: 395px;
+    height: 40px; 
+    border-radius: 30px;
+    padding: 1% 3%;
+    border: none;
+    background-color: var(--input-bg);
+    background-image: url("../images/Lupa.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 320px;
+}
+
+.login{
+    width: 600px;
+    display: flex;
+    justify-content: end;
+}
+
+.login button{
+    width: 180px;
+    height: 50px;
+    background: none;
+    border: 1px solid var(--azul-destaque);
+    text-transform: uppercase;
+}
+
+.login button:hover{
+    background-color: var(--azul-destaque);
+    color: var(--texto-destaque);
+    cursor: pointer;
+}
