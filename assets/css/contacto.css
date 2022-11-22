@@ -89,9 +89,14 @@
 }
 
 .form button{
-    background-color: var(--azul-destaque);
+    background-color: var(--texto-destaque);
     border: none;
-    color: var(--texto-destaque);
+    border: 1px solid var(--azul-destaque);
     height: 51px;
     width: 180px;
+}
+
+.form button:hover{
+    background-color: var(--azul-destaque);
+    color: var(--texto-destaque);
 }

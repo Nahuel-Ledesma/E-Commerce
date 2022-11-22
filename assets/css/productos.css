@@ -1,18 +1,19 @@
 /* ------------------------------- Sección de productos ------------------------------- */
 .general__productos{
     display: flex;
+    width: 75vw;
+    margin: 0 20%;
     flex-direction: column;
-    width: 60vw;
-    margin: 0 auto;
 }
 
 /* ------------------------------- Divs de la sección de productos ------------------------------- */
-.producto__titulo{
+.productos__totales{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.producto__titulo .titulo{
+.producto__titulo{
     font-size: 32px;
     font-weight: bold;
 }
@@ -23,18 +24,22 @@
     color: var(--azul-destaque);
 }
 
-.seccion__productos{
-    height: 310px;
-    width: 60vw;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-}
-
 .descripcion{
     font-weight: 500;
 }
 
 .precio{
     font-weight: bold;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 25vw;
+    display: flex;
+    margin-bottom: 5%;
 }

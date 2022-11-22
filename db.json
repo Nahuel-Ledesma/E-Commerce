@@ -1,0 +1,116 @@
+{
+  "producto": [
+    {
+      "nombre": "Producto xyz",
+      "imgUrl": "assets/images/canecasw.png",
+      "precio": "60.00",
+      "id": "1",
+      "alt": "Caneca",
+      "seccion": "Star Wars",
+      "descripcion": "Star Wars caneca"
+    },
+    {
+      "nombre": "Producto xyz",
+      "imgUrl": "assets/images/legosw.png",
+      "precio": "60.00",
+      "id": "2",
+      "alt": "",
+      "seccion": "Star Wars",
+      "descripcion": ""
+    },
+    {
+      "nombre": "Producto xyz",
+      "imgUrl": "assets/images/yoda.png",
+      "precio": "60.00",
+      "id": "3",
+      "alt": "",
+      "seccion": "Star wars",
+      "descripcion": ""
+    },
+    {
+      "nombre": "Producto xyz",
+      "imgUrl": "assets/images/stormtropper.png",
+      "precio": "60.00",
+      "id": "4",
+      "alt": "",
+      "seccion": "Star Wars",
+      "descripcion": ""
+    },
+    {
+      "nombre": "Producto xyz",
+      "imgUrl": "assets/images/babyyoda.png",
+      "precio": "60.00",
+      "id": "5",
+      "alt": "",
+      "seccion": "Star Wars",
+      "descripcion": ""
+    },
+    {
+      "nombre": "Producto xyz",
+      "imgUrl": "assets/images/mandalorian.png",
+      "precio": "60.00",
+      "id": "6",
+      "alt": "",
+      "seccion": "Star Wars",
+      "descripcion": ""
+    },
+    {
+      "nombre": "Nintendo Switch",
+      "imgUrl": "assets/images/switch.png",
+      "precio": "750",
+      "descripcion": "Nintendo switch",
+      "id": "uRTx4kl"
+    },
+    {
+      "nombre": "Snes",
+      "imgUrl": "assets/images/snes.png",
+      "precio": "300",
+      "descripcion": "Snes",
+      "id": "9qOPfqV"
+    },
+    {
+      "nombre": "PS5",
+      "imgUrl": "assets/images/ps5.png",
+      "precio": "3500",
+      "descripcion": "PS5",
+      "id": "yvG7zL6"
+    },
+    {
+      "nombre": "VR",
+      "imgUrl": "assets/images/vr.png",
+      "precio": "4500",
+      "descripcion": "VR",
+      "id": "RKAIGu4"
+    },
+    {
+      "nombre": "Xbox X",
+      "imgUrl": "assets/images/console.png",
+      "precio": "600",
+      "descripcion": "Xbox series X",
+      "id": "sakAuoN"
+    },
+    {
+      "nombre": "Nintendo Switch",
+      "imgUrl": "assets/images/switch.png",
+      "precio": "200",
+      "descripcion": "Nintendo switch",
+      "id": "rKTixHi"
+    }
+  ],
+  "perfil": [
+    {
+      "nombre": "Nahuel Ledesma",
+      "email": "nahuledes17@gmail.com",
+      "contraseña": "Estrellas1998",
+      "id": "1",
+      "rol": "Administrador"
+    },
+    {
+      "nombre": "Joaquin Ledesma",
+      "email": "joacoledes17@gmail.com",
+      "contraseña": "30091998",
+      "id": "2",
+      "rol": "Empleado"
+    }
+  ]
+}
